@@ -9,8 +9,7 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'ping'),
-    filename: 'bundle.js',
-    publicPath: '/ping/'
+    filename: 'bundle.js'
   },
   module: {
     loaders: [{
